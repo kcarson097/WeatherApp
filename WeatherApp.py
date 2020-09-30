@@ -3,8 +3,11 @@ from tkinter import *
 import json
 from datetime import datetime
 from urllib.request import urlopen
+
 """
 Below are the main functions needed to connect to the api and obtain the desired data
+A typical json response for this api can be found on the OpenWeatherMap website under 
+the one call API doc
 """
 
 #this will connect to the api and obtain the icons corresponding to each days weather
